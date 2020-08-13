@@ -4,7 +4,7 @@ body, html{
     padding: 0%;
     margin: 0%;
     z-index: -999;
-    background-color: #f0f0f0;
+    background-color: #fffbfb;
     scroll-behavior: smooth;
    
 }
@@ -24,7 +24,7 @@ header{
     width: 100%;
     box-sizing: border-box;
     height: 100px;
-    background-color: #181818;
+    background-color: #1d1d1d;
     z-index: +9999;
 }
 header .logo{
@@ -164,7 +164,7 @@ p, small, h6{
     color: rgb(19, 167, 204);
 }
 .lowerFooter{
-    background-color: #222;
+    background-color: #1d1d1d;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -198,12 +198,12 @@ p, small, h6{
     align-items: center;
 }
 ::-webkit-scrollbar{
-    width: 10px;
-    background-color: #222;
+    width: 12px;
+    background-color: #1d1d1d;
 }
 ::-webkit-scrollbar-thumb{
-    border-radius: 5px;
-    background: linear-gradient(45deg, #0d82c5, rgb(94, 201, 243) )
+    border-radius: 1px;
+    background: linear-gradient(50deg, #0d82c5, rgb(94, 201, 243) )
 }
 .team{
     width: 60%;
